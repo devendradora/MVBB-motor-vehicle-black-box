@@ -1,0 +1,47 @@
+html{
+	height: :100%;
+}
+.header{
+	height:50%;
+	font-family: 'Segoe UI Semibold';
+	background: blue;
+}
+
+.content{
+	height:100%;
+	background: #282929;
+	text-align: center;
+	padding: 5%;
+}
+
+.content .login{
+	border: 3px solid grey;
+	border-radius: 5px;
+	width:50%;
+	margin-left: 25%;
+        
+	
+}
+
+
+
+.login_form input{
+
+	width:40%;
+	height:40px;
+	background:white;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border:1px solid grey;
+	border-radius: 5px;
+	padding-left:10px;
+}
+
+.login_form input[type="submit"]{
+	color:white;
+	background: #57ad47;
+}
+
+.login_form{
+	padding: 5%;
+}
