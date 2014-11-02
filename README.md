@@ -23,11 +23,15 @@ Instructions
 
 Microcontroller part
 ---------------------
+1. Dump Final_Code.cpp into the microcontroller.
 
 Matlab part
 -------------
+1. Open main.m in MATLAB. 
+2. Edit s1 = serial('COM19'); depending on the COM port to which your microcontroller is connected.
+3. Run main.m
 
 Web part
 -----------
-1)create a database mvbb and import mvbb.sql
-2)Default username : Dev password : dev
+1. Create a database mvbb and import mvbb.sql
+2. Default username : Dev password : dev
